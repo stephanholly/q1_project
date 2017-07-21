@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>thrifty tripy</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <a id="p1"></a><div class="page1">
+      <div class="col-md-12 blur"></div>
+      <div class="everything">
+      <div class="col-md-8 col-md-offset-2 header1">
+        <p class="thrift"><strong>thrifty tripy</strong></p>
+      </div>
+      <div class="col-md-8 col-md-offset-2 tagline">
+        <p class="tag">because seeing the world is cheaper than you think</p>
+      </div>
+      <div class="col-md-8 col-md-offset-2 inputs1">
+        <div class="col-md-6 origin1">
+          <div class="col-md-8 col-md-offset-4 origin">
+            <input class="o" type="text" name="origin" placeholder="origin">
+          </div>
+        </div>
+        <div class="col-md-6 origin1">
+          <div class="col-md-8 destination">
+            <input class="d" type="text" name="destination" placeholder="destination">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 inputs1">
+        <div class="col-md-6 origin1">
+          <div class="col-md-8 col-md-offset-4 start-date">
+            <input class= "sd" type="text" name="start-date" placeholder="from?">
+          </div>
+        </div>
+        <div class="col-md-6 origin1">
+          <div class="col-md-8 end-date">
+            <input class="ed" type="text" name="end-date" placeholder="until?">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 origin1">
+        <div class="col-md-4 col-md-offset-4 costGuess">
+          <input class="guess1" type="text" placeholder="cost guess?">
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 origin1">
+        <div class="col-md-4 col-md-offset-4 search">
+          <a href="#p2"><input class="s1" type="submit" value="start your adventure"></a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+<!-- page2 -->
+<a id="p2"></a><div class="page2">
+  <div class="header">
+    <div class="col-md-1 header-back">
+        <a href="#p1"><img src="images/blue-back.png"></a>
+    </div>
+    <div class="col-md-2 col-md-offset-4 header-text">
+      <p>thrifty tripy</p>
+    </div>
+  </div>
+  <div class=" blur2"></div>
+  <div class="col-md-10 col-md-offset-1 everything2">
+      <div class="col-md-4 flights">
+        <div class="col-md-12 flightTitle">
+          <p>flights</p>
+        </div>
+        <div class="col-md-10 col-md-offset-1 flightContent">
+          <div class="flightInfo"></div>
+        </div>
+      </div>
+      <div class="col-md-4 sleep">
+        <div class="col-md-12 sleepTitle">
+          <p>sleep</p>
+        </div>
+        <div class="col-md-10 col-md-offset-1 sleepContent">
+          <div class="sleepInfo"></div>
+        </div>
+      </div>
+      <div class="col-md-4 todo">
+        <div class="col-md-12 todoTitle">
+          <p>expenses</p>
+        </div>
+        <div class="col-md-10 col-md-offset-1 todoContent">
+          <div class="todoInfo"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-md-offset-3 origin1">
+        <a href="#p3"><div class="col-md-4 col-md-offset-4 search1">
+        <input class="s2" type="submit" value="calculate total">
+        </div></a>
+      </div>
+    </div>
+</div>
+
+<!-- page3 -->
+<a id="p3"></a><div class="page3">
+  <div class="header">
+    <div class="col-md-1 header-back">
+        <a href="#p2"><img src="images/blue-back.png"></a>
+    </div>
+    <div class="col-md-2 col-md-offset-4 header-text">
+      <p>thrifty tripy</p>
+    </div>
+  </div>
+  <div class=" blur3"></div>
+    <div class="col-md-8 col-md-offset-2 everything3">
+      <div class="col-md-10 col-md-offset-1 totalCost">
+        <div class="totalInfo"></div>
+      </div>
+      <div class="col-md-6 col-md-offset-3 origin1">
+        <a href="#p1"><div class="col-md-8 col-md-offset-2 search3">
+        <input class="s3" type="submit" value="plan another adventure">
+        </div></a>
+      </div>
+    </div>
+</div>
+  </body>
+</html>

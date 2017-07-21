@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.page1 {
+  width: 100%;
+  height: 100vh;
+  position:relative;
+  top: 0;
+  text-align: center;
+}
+
+.blur {
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("images/oldtownprague.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: alpha(opacity=30);
+/* IE */
+-moz-opacity: 0.3;
+/* Mozilla */
+opacity: 0.3;
+/* CSS3 */
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+
+
+.header1 {
+  margin-top: 15vh;
+  height: 30vh;
+  font-size: 11vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.inputs1 {
+  height: 8vh;
+
+}
+.inputs2 {
+  height: 20vh;
+
+}
+
+.origin1 {
+  height: 8vh;
+}
+
+.origin {
+  height:45px;
+  border: 1px solid darkblue;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.destination{
+  height:45px;
+  border: 1px solid darkblue;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+
+}
+
+.start-date {
+  height:45px;
+  border: 1px solid darkblue;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.end-date  {
+  height:45px;
+  border: 1px solid darkblue;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.costGuess {
+  height:45px;
+  border: 1px solid darkblue;
+  font-size: 30px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+
+}
+
+.search {
+  background-color: darkblue;
+  height:50px;
+  border: 1px solid darkblue;
+  font-size: 1.5vmax;
+  border-radius: 1px;
+  color: white;
+  /*margin-top: 5vh;*/
+  opacity: 0.75;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search:active {
+  box-shadow: 0 3px 0 #00823F;
+  top: 3px;
+}
+
+.s1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+.guess1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+input[type=text] {
+  width: 100%;
+  text-align: center;
+  padding-top: 1.5px;
+}
+
+.thrift {
+background: linear-gradient(to right, green, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.tagline {
+  height: 10vh;
+  font-size: 2vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*page 2 CSS*/
+
+.page2 {
+  width: 100%;
+  height: 100vh;
+  position:relative;
+  top: 0;
+}
+
+.everthing2 {
+  width: 100%;
+  height: 93vh;
+  position:relative;
+  top: 0;
+}
+
+
+.blur2 {
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("images/reflections-of-angkor.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: alpha(opacity=30);
+/* IE */
+-moz-opacity: 0.3;
+/* Mozilla */
+opacity: 0.3;
+/* CSS3 */
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 7vh;
+  border-bottom: 1px solid white;
+
+}
+
+.header-text {
+  font-size: 2vmax;
+  margin-top: 3px;
+  text-align: center;
+  background: linear-gradient(to right, green, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-back {
+  margin-top: 3px;
+  z-index: 1;
+}
+
+img {
+height:  35px;
+width: 35px;
+}
+
+.flightTitle {
+  color: darkblue;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 5vmax;
+  height: 15vh;
+  margin-top: 4vh;
+}
+
+.sleepTitle {
+  color: darkblue;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 5vmax;
+  height: 15vh;
+  margin-top: 4vh;
+}
+
+.todoTitle {
+  color: darkblue;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 5vmax;
+  height: 15vh;
+  margin-top: 4vh;
+}
+
+.flightContent {
+  height: 50vh;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(to right, green, darkblue);
+    opacity: 0.75;
+}
+
+.sleepContent {
+  height: 50vh;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(to right, darkblue, green);
+    opacity: 0.75;
+}
+
+.todoContent {
+  height: 50vh;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(to right, green, darkblue);
+  opacity: 0.75;
+
+}
+
+.flightInfo {
+  height: 48vh;
+  width: 100%;
+  margin-top: 1vh;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.sample {
+  height: 12vh;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+.sample1 {
+  height: 12vh;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.sample2 {
+  height: 12vh;
+  width: 100%;
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.sleepInfo {
+  height: 48vh;
+  width: 100%;
+  margin-top: 1vh;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.todoInfo {
+  height: 48vh;
+  width: 100%;
+  margin-top: 1vh;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.origin1 {
+  height: 8vh;
+}
+
+.search1 {
+  background-color: darkblue;
+  height:50px;
+  border: 1px solid darkblue;
+  font-size: 1.5vmax;
+  border-radius: 1px;
+  color: white;
+  margin-top: 5vh;
+  opacity: 0.75;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search1:active {
+  box-shadow: 0 3px 0 #00823F;
+  top: 3px;
+}
+
+.s2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+/*page 3 CSS*/
+.page3 {
+width: 100%;
+height: 100vh;
+position:relative;
+top: 0;
+}
+
+.everything3 {
+  height: 81vh;
+  position:relative;
+  margin-top: 12vh;
+  top: 0;
+}
+
+
+.blur3 {
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("images/nyhavn.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: alpha(opacity=30);
+/* IE */
+-moz-opacity: 0.3;
+/* Mozilla */
+opacity: 0.3;
+/* CSS3 */
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+
+
+.totalCost {
+  height: 34vh;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(to right, green, darkblue);
+  opacity: 0.75;
+  margin-top: 10vh;
+}
+
+.totalInfo {
+  height: 32vh;
+  margin-top: 1vh;
+  padding-top: 5vh;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4em;
+}
+
+
+.origin1 {
+  height: 8vh;
+}
+
+.search3 {
+  background-color: darkblue;
+  height:50px;
+  border: 1px solid darkblue;
+  font-size: 1.5vmax;
+  border-radius: 1px;
+  color: white;
+  margin-top: 10vh;
+  opacity: 0.75;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search3:active {
+  box-shadow: 0 3px 0 #00823F;
+  top: 3px;
+}
+
+.s3 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
